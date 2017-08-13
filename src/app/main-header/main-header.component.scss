@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .app-main-title {
+    line-height: 1;
+    margin: 0;
+  }
+
+  .angular-logo {
+    max-width: 50px;
+    margin-right: 10px;
+  }
+}
