@@ -11,8 +11,15 @@ export class ContatoService {
   }
 
   getContatosSlowly(): Promise<Contato[]> {   // Simulando uma chamada ao servidor com delay de 2 segundos
+    const timeForServerToRespond = 1000;
     return new Promise((resolve, reject) => {
-      setTimeout(resolve, 2000);   // Forçando somente um resolve para cair pro próximo then()
+      setTimeout(resolve, timeForServerToRespond);   // Forçando somente um resolve para cair pro próximo then()
     }).then(() => this.getContatos());
+  }
+
+  getContato(id: number): Promise<Contato> {
+    return this.getContatos().then((contatos: Contato[]) => {
+      return contatos.find((contato: Contato) => contato.id === id);
+    });
   }
 }

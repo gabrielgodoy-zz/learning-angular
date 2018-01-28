@@ -5,7 +5,7 @@ import { ContatoRoutingModule } from './contato-routing.module';
 import { ContatoDetalheComponent } from './contato-detalhe.component';
 import { ContatoService } from './contato.service';
 
-// Decorando a classe
+// Decorando a classe ContatosModule
 @NgModule({ // Metadados
   imports: [
     CommonModule,

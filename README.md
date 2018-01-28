@@ -1,6 +1,8 @@
 # MyApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
+Projeto todo comentado, em Angular, seguindo [curso do Udemy](https://www.udemy.com/aprenda-angular-2-com-typescript/learn/v4/content)
+
+Esse projeto foi gerado pelo Angular CLI [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
 
 ## Development server
 
